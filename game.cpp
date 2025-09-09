@@ -5,7 +5,7 @@
 #include "SFML/Window/VideoMode.hpp"
 #include <optional>
 
-#include "./lib/header/game.h"
+#include "./lib/header/Game/game.h"
 
 Game::Game()
 {

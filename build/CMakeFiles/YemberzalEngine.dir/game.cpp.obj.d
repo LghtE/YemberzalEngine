@@ -259,7 +259,7 @@ CMakeFiles/YemberzalEngine.dir/game.cpp.obj: \
  C:/mingw64/include/c++/14.2.0/utility \
  C:/mingw64/include/c++/14.2.0/bits/stl_relops.h \
  C:/SFML-3.0.0/include/SFML/System/Clock.hpp \
- C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/header/game.h \
+ C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/header/Game/game.h \
  C:/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
  C:/SFML-3.0.0/include/SFML/Graphics.hpp \

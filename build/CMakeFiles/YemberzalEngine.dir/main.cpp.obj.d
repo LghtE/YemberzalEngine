@@ -1,6 +1,6 @@
 CMakeFiles/YemberzalEngine.dir/main.cpp.obj: \
  C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\main.cpp \
- C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib/header/game.h \
+ C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib/header/Game/game.h \
  C:/SFML-3.0.0/include/SFML/Graphics/RenderWindow.hpp \
  C:/SFML-3.0.0/include/SFML/Graphics/Export.hpp \
  C:/SFML-3.0.0/include/SFML/Config.hpp \
@@ -305,4 +305,5 @@ CMakeFiles/YemberzalEngine.dir/main.cpp.obj: \
  C:/SFML-3.0.0/include/SFML/System/InputStream.hpp \
  C:/SFML-3.0.0/include/SFML/System/MemoryInputStream.hpp \
  C:/SFML-3.0.0/include/SFML/System/Sleep.hpp \
- C:/mingw64/include/c++/14.2.0/iostream
+ C:/mingw64/include/c++/14.2.0/iostream \
+ C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib/Singletons/GameState.h
