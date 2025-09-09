@@ -19,8 +19,11 @@ int main()
 	std::string s = "Misc/TestSprites/tech_bg.png";
 	tm->loadTilesheet(s);
 	tm->loadTileArray();
+	tm->mapTiles();
 
-	game->running();
+
+
+	game->running(tm);
 
 	delete game;
 	return 0;

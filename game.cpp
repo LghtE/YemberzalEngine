@@ -3,6 +3,8 @@
 #include "SFML/Window/Event.hpp"
 #include "SFML/Window/Keyboard.hpp"
 #include "SFML/Window/VideoMode.hpp"
+#include "lib/header/Tiles/tileMapper.h"
+#include <iostream>
 #include <optional>
 
 #include "./lib/header/Game/game.h"
@@ -23,8 +25,8 @@ void Game::initWindow()
     width = 640;
     height = 360;
     title = "SFML WITH CLASSES";
-    vm = sf::VideoMode({width, height});
-    window = new sf::RenderWindow(vm, title);
+    vm = sf::VideoMode::getDesktopMode();
+    window = new sf::RenderWindow(vm, title, sf::Style::None);
     window->setFramerateLimit(60);
 }
 
@@ -51,20 +53,23 @@ void Game::updating()
     pollEvents();
 }
 
-void Game::rendering()
+void Game::rendering(TileMapper* t)
 {
     window->clear();
 
     // Draw Here // 
 
+    window->draw(*t);
+
     window->display();
 }
 
-void Game::running()
+void Game::running(TileMapper *tm)
 {
     while (window->isOpen())
     {
+
         updating();
-        rendering();
+        rendering(tm);
     }
 }
