@@ -153,6 +153,30 @@ game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+lib/TileMapper/TileMapper.obj: lib/TileMapper/TileMapper.cpp.obj
+.PHONY : lib/TileMapper/TileMapper.obj
+
+# target to build an object file
+lib/TileMapper/TileMapper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj
+.PHONY : lib/TileMapper/TileMapper.cpp.obj
+
+lib/TileMapper/TileMapper.i: lib/TileMapper/TileMapper.cpp.i
+.PHONY : lib/TileMapper/TileMapper.i
+
+# target to preprocess a source file
+lib/TileMapper/TileMapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.i
+.PHONY : lib/TileMapper/TileMapper.cpp.i
+
+lib/TileMapper/TileMapper.s: lib/TileMapper/TileMapper.cpp.s
+.PHONY : lib/TileMapper/TileMapper.s
+
+# target to generate assembly for a file
+lib/TileMapper/TileMapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.s
+.PHONY : lib/TileMapper/TileMapper.cpp.s
+
 lib/tuts/animation.obj: lib/tuts/animation.cpp.obj
 .PHONY : lib/tuts/animation.obj
 
@@ -309,6 +333,9 @@ help:
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s
+	@echo ... lib/TileMapper/TileMapper.obj
+	@echo ... lib/TileMapper/TileMapper.i
+	@echo ... lib/TileMapper/TileMapper.s
 	@echo ... lib/tuts/animation.obj
 	@echo ... lib/tuts/animation.i
 	@echo ... lib/tuts/animation.s

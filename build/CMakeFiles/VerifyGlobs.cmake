@@ -7,6 +7,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/ehsen/OneDrive/Docum
 set(OLD_GLOB
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/build/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/game.cpp"
+  "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/TileMapper/TileMapper.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/animation.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/fonts.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/mouse_position.cpp"
