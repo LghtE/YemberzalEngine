@@ -1,0 +1,3 @@
+C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/build/CMakeFiles/YemberzalEngine.dir
+C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/build/CMakeFiles/edit_cache.dir
+C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/build/CMakeFiles/rebuild_cache.dir
