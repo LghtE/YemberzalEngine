@@ -22,11 +22,11 @@ Game::~Game()
 
 void Game::initWindow()
 {
-    width = 640;
-    height = 360;
+    width = 1280;
+    height = 720;
     title = "SFML WITH CLASSES";
-    vm = sf::VideoMode::getDesktopMode();
-    window = new sf::RenderWindow(vm, title, sf::Style::None);
+    vm = sf::VideoMode({width, height});
+    window = new sf::RenderWindow(vm, title);
     window->setFramerateLimit(60);
 }
 
