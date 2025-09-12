@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/YemberzalEngine.dir/game.cpp.obj"
   "CMakeFiles/YemberzalEngine.dir/game.cpp.obj.d"
+  "CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj"
+  "CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj.d"
   "CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj"
   "CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj.d"
   "CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj"

@@ -153,6 +153,30 @@ game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+lib/Cameras/basecamera.obj: lib/Cameras/basecamera.cpp.obj
+.PHONY : lib/Cameras/basecamera.obj
+
+# target to build an object file
+lib/Cameras/basecamera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj
+.PHONY : lib/Cameras/basecamera.cpp.obj
+
+lib/Cameras/basecamera.i: lib/Cameras/basecamera.cpp.i
+.PHONY : lib/Cameras/basecamera.i
+
+# target to preprocess a source file
+lib/Cameras/basecamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.i
+.PHONY : lib/Cameras/basecamera.cpp.i
+
+lib/Cameras/basecamera.s: lib/Cameras/basecamera.cpp.s
+.PHONY : lib/Cameras/basecamera.s
+
+# target to generate assembly for a file
+lib/Cameras/basecamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.s
+.PHONY : lib/Cameras/basecamera.cpp.s
+
 lib/TileMapper/TileMapper.obj: lib/TileMapper/TileMapper.cpp.obj
 .PHONY : lib/TileMapper/TileMapper.obj
 
@@ -333,6 +357,9 @@ help:
 	@echo ... game.obj
 	@echo ... game.i
 	@echo ... game.s
+	@echo ... lib/Cameras/basecamera.obj
+	@echo ... lib/Cameras/basecamera.i
+	@echo ... lib/Cameras/basecamera.s
 	@echo ... lib/TileMapper/TileMapper.obj
 	@echo ... lib/TileMapper/TileMapper.i
 	@echo ... lib/TileMapper/TileMapper.s

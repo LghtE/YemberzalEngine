@@ -306,4 +306,5 @@ CMakeFiles/YemberzalEngine.dir/game.cpp.obj: \
  C:/SFML-3.0.0/include/SFML/System/FileInputStream.hpp \
  C:/SFML-3.0.0/include/SFML/System/InputStream.hpp \
  C:/SFML-3.0.0/include/SFML/System/MemoryInputStream.hpp \
- C:/SFML-3.0.0/include/SFML/System/Sleep.hpp
+ C:/SFML-3.0.0/include/SFML/System/Sleep.hpp \
+ C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/header/Cameras/basecamera.h

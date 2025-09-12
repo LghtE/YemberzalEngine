@@ -3,6 +3,7 @@
 #include <string>
 
 #include "lib/Singletons/GameState.h"
+#include "lib/header/Cameras/basecamera.h"
 
 #include "lib/header/Tiles/tileMapper.h"
 
@@ -15,13 +16,14 @@ int main()
 	Game *game = new Game();
 	
 	TileMapper *tm = new TileMapper();
+	BaseCamera cam(game->returnWindowSize().x, game->returnWindowSize().y);
 
 	std::string s = "Misc/TestSprites/tech_bg.png";
 	tm->loadTilesheet(s);
 	tm->loadTileArray();
 
 
-	game->running(tm);
+	game->running(tm, cam);
 
 	delete game;
 	return 0;

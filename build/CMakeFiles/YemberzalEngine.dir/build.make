@@ -83,11 +83,26 @@ CMakeFiles/YemberzalEngine.dir/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YemberzalEngine.dir/game.cpp.s"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\game.cpp -o CMakeFiles\YemberzalEngine.dir\game.cpp.s
 
+CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj: CMakeFiles/YemberzalEngine.dir/flags.make
+CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
+CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/Cameras/basecamera.cpp
+CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\Cameras\basecamera.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\Cameras\basecamera.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\Cameras\basecamera.cpp
+
+CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\Cameras\basecamera.cpp > CMakeFiles\YemberzalEngine.dir\lib\Cameras\basecamera.cpp.i
+
+CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\Cameras\basecamera.cpp -o CMakeFiles\YemberzalEngine.dir\lib\Cameras\basecamera.cpp.s
+
 CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj: CMakeFiles/YemberzalEngine.dir/flags.make
 CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/TileMapper/TileMapper.cpp
 CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\TileMapper\TileMapper.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\TileMapper\TileMapper.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\TileMapper\TileMapper.cpp
 
 CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.i: cmake_force
@@ -102,7 +117,7 @@ CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj: CMakeFiles/YemberzalE
 CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/animation.cpp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\tuts\animation.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\tuts\animation.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\tuts\animation.cpp
 
 CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.i: cmake_force
@@ -117,7 +132,7 @@ CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj: CMakeFiles/YemberzalEngin
 CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/fonts.cpp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\tuts\fonts.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\tuts\fonts.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\tuts\fonts.cpp
 
 CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj: CMakeFiles/Yembe
 CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/mouse_position.cpp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\tuts\mouse_position.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\tuts\mouse_position.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\tuts\mouse_position.cpp
 
 CMakeFiles/YemberzalEngine.dir/lib/tuts/mouse_position.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj: CMakeFiles/YemberzalEngi
 CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/shapes.cpp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\tuts\shapes.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\tuts\shapes.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\tuts\shapes.cpp
 
 CMakeFiles/YemberzalEngine.dir/lib/tuts/shapes.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj: CMakeFiles/YemberzalEngi
 CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/sprite.cpp
 CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\lib\tuts\sprite.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\lib\tuts\sprite.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib\tuts\sprite.cpp
 
 CMakeFiles/YemberzalEngine.dir/lib/tuts/sprite.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/YemberzalEngine.dir/main.cpp.obj: CMakeFiles/YemberzalEngine.dir/flag
 CMakeFiles/YemberzalEngine.dir/main.cpp.obj: CMakeFiles/YemberzalEngine.dir/includes_CXX.rsp
 CMakeFiles/YemberzalEngine.dir/main.cpp.obj: C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/main.cpp
 CMakeFiles/YemberzalEngine.dir/main.cpp.obj: CMakeFiles/YemberzalEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/YemberzalEngine.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/YemberzalEngine.dir/main.cpp.obj"
 	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YemberzalEngine.dir/main.cpp.obj -MF CMakeFiles\YemberzalEngine.dir\main.cpp.obj.d -o CMakeFiles\YemberzalEngine.dir\main.cpp.obj -c C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\main.cpp
 
 CMakeFiles/YemberzalEngine.dir/main.cpp.i: cmake_force
@@ -191,6 +206,7 @@ CMakeFiles/YemberzalEngine.dir/main.cpp.s: cmake_force
 # Object files for target YemberzalEngine
 YemberzalEngine_OBJECTS = \
 "CMakeFiles/YemberzalEngine.dir/game.cpp.obj" \
+"CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj" \
 "CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj" \
 "CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj" \
 "CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj" \
@@ -203,6 +219,7 @@ YemberzalEngine_OBJECTS = \
 YemberzalEngine_EXTERNAL_OBJECTS =
 
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/game.cpp.obj
+YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.obj
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/lib/TileMapper/TileMapper.cpp.obj
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/lib/tuts/animation.cpp.obj
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/lib/tuts/fonts.cpp.obj
@@ -217,7 +234,7 @@ YemberzalEngine.exe: C:/SFML-3.0.0/lib/libsfml-system-d.a
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/linkLibs.rsp
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/objects1.rsp
 YemberzalEngine.exe: CMakeFiles/YemberzalEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable YemberzalEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable YemberzalEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\YemberzalEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

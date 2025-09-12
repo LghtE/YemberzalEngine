@@ -53,23 +53,33 @@ void Game::updating()
     pollEvents();
 }
 
-void Game::rendering(TileMapper* t)
+void Game::rendering(TileMapper* t, BaseCamera &cam)
 {
     window->clear();
 
     // Draw Here // 
 
+    window->setView(cam.returnCamView());
     window->draw(*t);
 
     window->display();
 }
 
-void Game::running(TileMapper *tm)
+void Game::running(TileMapper *tm, BaseCamera &cam)
 {
     while (window->isOpen())
     {
 
         updating();
-        rendering(tm);
+
+        cam.moveCam(sf::Vector2f{0.1f, 0.0f});
+
+        rendering(tm, cam);
     }
+}
+
+sf::Vector2f Game::returnWindowSize()
+{
+
+    return sf::Vector2f(static_cast<float>(width), static_cast<float>(height));
 }
