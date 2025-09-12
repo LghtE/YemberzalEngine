@@ -3,6 +3,7 @@
 #include "SFML/Window/Event.hpp"
 #include "SFML/Window/Keyboard.hpp"
 #include "SFML/Window/VideoMode.hpp"
+#include "lib/header/LevelEditor/EditorMouse.h"
 #include "lib/header/Tiles/tileMapper.h"
 #include <iostream>
 #include <optional>
@@ -27,7 +28,7 @@ void Game::initWindow()
     title = "SFML WITH CLASSES";
     vm = sf::VideoMode({width, height});
     window = new sf::RenderWindow(vm, title);
-    window->setFramerateLimit(60);
+    window->setFramerateLimit(144);
 }
 
 void Game::pollEvents()
@@ -65,15 +66,19 @@ void Game::rendering(TileMapper* t, BaseCamera &cam)
     window->display();
 }
 
-void Game::running(TileMapper *tm, BaseCamera &cam)
+void Game::running(TileMapper *tm, BaseCamera &cam, EditorMouse &ed_mouse)
 {
     while (window->isOpen())
     {
 
         updating();
 
-        cam.moveCam(sf::Vector2f{0.1f, 0.0f});
+        // cam.moveCam(sf::Vector2f{0.0f, 0.0f});
 
+
+        sf::Vector2i d = ed_mouse.process(window);
+
+        cam.moveCam(sf::Vector2f{static_cast<float>(d.x), static_cast<float>(d.y)});
         rendering(tm, cam);
     }
 }

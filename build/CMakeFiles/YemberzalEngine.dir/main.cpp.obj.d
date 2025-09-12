@@ -307,5 +307,6 @@ CMakeFiles/YemberzalEngine.dir/main.cpp.obj: \
  C:/SFML-3.0.0/include/SFML/System/Sleep.hpp \
  C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/header/Tiles/tileMapper.h \
  C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/header/Cameras/basecamera.h \
+ C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/header/LevelEditor/EditorMouse.h \
  C:/mingw64/include/c++/14.2.0/iostream \
  C:\Users\ehsen\OneDrive\Documents\YemberzalEngine\lib/Singletons/GameState.h

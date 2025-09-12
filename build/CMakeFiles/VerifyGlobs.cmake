@@ -8,6 +8,7 @@ set(OLD_GLOB
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/build/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/game.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/Cameras/basecamera.cpp"
+  "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/LevelEditor/EditorMouse.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/TileMapper/TileMapper.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/animation.cpp"
   "C:/Users/ehsen/OneDrive/Documents/YemberzalEngine/lib/tuts/fonts.cpp"

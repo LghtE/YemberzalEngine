@@ -4,6 +4,7 @@
 
 #include "lib/Singletons/GameState.h"
 #include "lib/header/Cameras/basecamera.h"
+#include "lib/header/LevelEditor/EditorMouse.h"
 
 #include "lib/header/Tiles/tileMapper.h"
 
@@ -17,13 +18,14 @@ int main()
 	
 	TileMapper *tm = new TileMapper();
 	BaseCamera cam(game->returnWindowSize().x, game->returnWindowSize().y);
+	EditorMouse ed_mouse;
 
 	std::string s = "Misc/TestSprites/tech_bg.png";
 	tm->loadTilesheet(s);
 	tm->loadTileArray();
 
 
-	game->running(tm, cam);
+	game->running(tm, cam, ed_mouse);
 
 	delete game;
 	return 0;

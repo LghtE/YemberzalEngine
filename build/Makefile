@@ -177,6 +177,30 @@ lib/Cameras/basecamera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/Cameras/basecamera.cpp.s
 .PHONY : lib/Cameras/basecamera.cpp.s
 
+lib/LevelEditor/EditorMouse.obj: lib/LevelEditor/EditorMouse.cpp.obj
+.PHONY : lib/LevelEditor/EditorMouse.obj
+
+# target to build an object file
+lib/LevelEditor/EditorMouse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/LevelEditor/EditorMouse.cpp.obj
+.PHONY : lib/LevelEditor/EditorMouse.cpp.obj
+
+lib/LevelEditor/EditorMouse.i: lib/LevelEditor/EditorMouse.cpp.i
+.PHONY : lib/LevelEditor/EditorMouse.i
+
+# target to preprocess a source file
+lib/LevelEditor/EditorMouse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/LevelEditor/EditorMouse.cpp.i
+.PHONY : lib/LevelEditor/EditorMouse.cpp.i
+
+lib/LevelEditor/EditorMouse.s: lib/LevelEditor/EditorMouse.cpp.s
+.PHONY : lib/LevelEditor/EditorMouse.s
+
+# target to generate assembly for a file
+lib/LevelEditor/EditorMouse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YemberzalEngine.dir\build.make CMakeFiles/YemberzalEngine.dir/lib/LevelEditor/EditorMouse.cpp.s
+.PHONY : lib/LevelEditor/EditorMouse.cpp.s
+
 lib/TileMapper/TileMapper.obj: lib/TileMapper/TileMapper.cpp.obj
 .PHONY : lib/TileMapper/TileMapper.obj
 
@@ -360,6 +384,9 @@ help:
 	@echo ... lib/Cameras/basecamera.obj
 	@echo ... lib/Cameras/basecamera.i
 	@echo ... lib/Cameras/basecamera.s
+	@echo ... lib/LevelEditor/EditorMouse.obj
+	@echo ... lib/LevelEditor/EditorMouse.i
+	@echo ... lib/LevelEditor/EditorMouse.s
 	@echo ... lib/TileMapper/TileMapper.obj
 	@echo ... lib/TileMapper/TileMapper.i
 	@echo ... lib/TileMapper/TileMapper.s
